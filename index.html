@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add icon link -->
+    <link rel="icon" href="logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <title>RealFocus Image</title>
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- css- swiper-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+     <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- navigation section -->
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="index.html"><img src="logo.jpg" alt="">
+                    <span>RealFocus Image</span></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </div>
+    <!-- home section -->
+    <section class="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">HAKIZIMANA Josue</div>
+                <div class="text2">Professional</div>
+                <div class="text3">Photography</div>
+            </div>
+        </div>
+    </section>
+    <!-- featured section -->
+     <section class="featured">
+        <h2 class="title">Latest Photoshoot</h2>
+        <div class="container">
+<!-- Swiper -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"> <a href="21.png" download><img src="21.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="23.png" download><img src="23.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="1.png" download><img src="1.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="2.png" download><img src="2.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="22.png" download><img src="22.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="3.png" download><img src="3.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="4.png"><img src="4.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="5.png" download><img src="5.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="6.png" download><img src="6.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="7.png" download><img src="7.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="8.png" download><img src="8.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="9.png" download><img src="9.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="10.png" download><img src="10.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="11.png" download><img src="11.png" alt=""></a></div>
+    <div class="swiper-slide"> <a href="12.png" download><img src="12.png" alt=""></a></div>
+</div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+</div>
+</section>
+<!-- graduation section -->
+ <section class="graduation">
+    <h2 class="title">PHOTO</h2>
+     <div class="row">
+      <div class="column">
+        <img src="1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="16.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="20.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+      </div>
+</div>
+ </section>
+ <!-- wedding photo -->
+<section class="graduation">
+    <h2 class="title">WEDDING PHOTO</h2>
+    <div class="row">
+      <div class="column">
+        <img src="7.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="14.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="8.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="15.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+      </div>
+</div>
+</section>
+<!-- nature section -->
+<section class="graduation">
+    <h2 class="title">NATURE PHOTO</h2>
+    <!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="17.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="18.gif" onclick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="19.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div>
+      <img src="1.png" >
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="16.png">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div>
+      <img src="3.png" >
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 12</div>
+      <img src="20.png">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="7.png">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="14.png">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="8.png">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="15.png">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 12</div>
+      <img src="17.jpg">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="18.gif">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="19.jpg">
+    </div>
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="1.png" onclick="currentSlide(1)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="16.png" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="3.png" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="20.png" onclick="currentSlide(4)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="7.png" onclick="currentSlide(5)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="14.png" onclick="currentSlide(6)">
+    </div>
+    <div class="column">
+      <img class="demo" src="8.png" onclick="currentSlide(7)">
+    </div>
+    <div class="column">
+      <img class="demo" src="15.png" onclick="currentSlide(8)">
+    </div>
+    <div class="column">
+      <img class="demo" src="17.jpg" onclick="currentSlide(9)">
+    </div>
+    <div class="column">
+      <img class="demo" src="18.gif" onclick="currentSlide(10)">
+    </div>
+    <div class="column">
+      <img class="demo" src="19.jpg" onclick="currentSlide(11)">
+    </div>
+    <div class="column">
+      <img class="demo" src="" onclick="currentSlide(12)">
+    </div>
+  </div>
+</div>
+</section>
+<!-- services secion -->
+<section class="services">
+    <h2 class="title">Professional services</h2>
+    <div class="max-width">
+        <div class="card">
+            <div class="left">
+                <img src="logo.jpg" alt="">
+            </div>
+            <div class="right">
+                <h4>services</h4>
+                <p>
+                  International Passports, Wedding Parts, Birthday Parts, Bride Shower, Ckicker Parts
+                  ,Wedding Videos, Videos of the Chois, Photo Shoots, Highlight Wedding, Baby shower.
+                </p>
+                <a href="contact.html">book our services now &#8594</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+ <footer>
+    <span>Designed by <a href="https://www.instagram.com/mu.ge.nga/">MUGENGA Emmanuel</a>copyright<i class='bx bx-copyright'></i> 2024.All right reserved</span>
+ </footer>
+        <!--js-swiper-->
+    <script src="main.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                280: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                510: {
+                    slidesPerview: 2,
+                    spaceBetween: 10,
+                },
+                758: {
+                    slidesPerView: 3,
+                    spaceBetween: 15,
+                },
+                900: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
